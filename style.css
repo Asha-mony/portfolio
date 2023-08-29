@@ -1,0 +1,30 @@
+*{
+    background-color: lightslategray;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.container-div{
+    display: flex;
+}
+
+.text-colour{
+    color: rgb(4, 10, 15);
+}
+
+.half{
+    width: 50%;
+}
+
+.half img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid gray;
+    /*background-color: skyblue;*/
+    background-image: linear-gradient(rgb(120, 248, 15), rgb(149, 221, 132)) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
