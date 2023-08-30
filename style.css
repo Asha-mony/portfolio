@@ -1,9 +1,31 @@
 *{
     background-color: lightslategray;
     max-width: 900px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
+
+#header{
+   background-color: black;
+   border: 1px double silver;
+   border-radius: 5px;
+   
+}
+
+#main{
+   background-color: rgb(175, 171, 171);
+   border: 1px dotted silver;
+   border-radius: 10px;
+
+}
+
+
+
 .container-div{
+    display: flex;
+    text-align: center;
+}
+
+.container-div1{
     display: flex;
 }
 
@@ -11,20 +33,107 @@
     color: rgb(4, 10, 15);
 }
 
-.half{
+.half1{
     width: 50%;
+    margin-top: 150px;
+    margin-left: 100px;
 }
+    
 
 .half img{
     width: 50%;
     border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 30px;
 }
 
 .btn{
     text-decoration: none;
     border: 1px solid gray;
     /*background-color: skyblue;*/
-    background-image: linear-gradient(rgb(120, 248, 15), rgb(149, 221, 132)) ;
+    background-image: linear-gradient(rgb(252, 252, 252), rgb(173, 184, 170)) ;
     padding: 5px 10px;
     border-radius: 5px;
 }
+.item{
+    /*border: 2px solid black;*/
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    /*background-color: rgb(159, 166, 172);*/
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(75, 73, 73);
+
+}
+
+main >h2{
+    text-align: center;
+    margin-top: 25px;
+    border-width: 50px;
+    padding: 10px;
+}
+table{
+    width: 99%;
+    /*border-collapse: collapse;*/
+    box-shadow: 3px 3px black;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 15px;
+    table-layout: auto;
+    
+}
+
+#table{
+    margin-top: 50px;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+
+}
+.edu-exe{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.education{
+    border: 2px solid white;
+}
+
+.experience{
+    border: 2px solid white;
+}
+
+.skills{
+    border: 2px solid white;
+}
+
+#summary{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#form{
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 25px;
+    width: 95%;
+    
+}
+
+#foot{
+    background-color: black;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+
+.no{
+    color: aliceblue;
+}
+
