@@ -145,10 +145,22 @@ th, td{
 
     .half img{
         margin-left: 0px;
+        margin-right: 20px;
     }
 
     .container-div1{
         flex-direction: column
+    }
+
+    .half1{
+        margin-top: 15px;
+        text-align: center;
+        margin-left: 150px;
+    }
+
+    .edu-exe{
+        gap: 5px;
+        width: 90%;
     }
 
     /* .item{
@@ -156,7 +168,8 @@ th, td{
     }  */
 
     #form{
-        flex-direction: column
+        flex-direction: column;
+        width: 88%;
     }
 }
     
