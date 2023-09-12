@@ -137,3 +137,28 @@ th, td{
     color: aliceblue;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .container-div{
+        flex-direction: column
+    }
+
+    .half img{
+        margin-left: 0px;
+    }
+
+    .container-div1{
+        flex-direction: column
+    }
+
+    /* .item{
+        height: 0px;
+    }  */
+
+    #form{
+        flex-direction: column
+    }
+}
+    
+
+
